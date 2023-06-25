@@ -100,7 +100,7 @@ const NavBar = () => {
           <dialog id="my_modal_1" className="modal">
             <form method="dialog" className="modal-box">
               <h3 className="font-bold text-lg">Hi There, I'm Lautaro!</h3>
-              <p className="py-4 flex flex-row items-center">
+              <p className="py-4 flex flex-col flex-wrap md:flex-row md:items-center">
                 Can you give me a <FaStar className="text-yellow mx-1 animate-spin text-xl"/>in Github? It will help me a lot!
               </p>
               <a target="_blank" className="btn btn-circle btn-primary text-white animate-pulse" href="https://www.github.com/speedbuild98">
