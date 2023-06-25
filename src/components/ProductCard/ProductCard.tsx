@@ -8,7 +8,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = (props) => {
   return (
-    <div className="md:w-[280px] md:h-[430px] flex flex-col rounded-lg bg-base-100 shadow-xl cursor-pointer hover:scale-110 transition-all ease-in-out">
+    <div className="w-[300px] md:w-[280px] md:h-[430px] flex flex-col rounded-lg bg-base-100 shadow-xl cursor-pointer hover:scale-110 transition-all ease-in-out">
       <figure>
         <img
           src={props.image}
