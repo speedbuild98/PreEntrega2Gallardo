@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-hexagonal {
+  background-image: url("./assets/Hexagon.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.bg-shapes {
+  background-image: url("./assets/Shapes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-sprinkle {
+  background-image: url("./assets/Sprinkle.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: automatic;
+}
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+  @apply w-[10px];
+  @apply bg-primary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary;
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent;
+  @apply rounded-lg
+}
