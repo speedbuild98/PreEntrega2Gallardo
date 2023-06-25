@@ -2,13 +2,6 @@
 
 This is a basic e-commerce application built with React. The application retrieves product data from an API and displays it in a user-friendly interface.
 
-## Features
-
-- Fetches product data from an API
-- Displays a list of products
-- Allows filtering products by category
-- Displays detailed information for each product
-
 ## Demo
 
 Check out the live demo of the application [here](https://pre-entrega2-gallardo.vercel.app).
@@ -20,6 +13,41 @@ Check out the live demo of the application [here](https://pre-entrega2-gallardo.
 ![Desktop](https://github.com/speedbuild98/PreEntrega2Gallardo/blob/main/public/preview-desktop.png?raw=true)  
 
 </div>
+
+## Tasks
+
+- [x] Configure routing in `App.tsx` using `BrowserRouter`.
+- [x] Create the navigation structure of the application, demonstrating that the app allows viewing the catalog and navigating to product detail.
+
+## Components
+
+- [x] Navbar with cart
+- [x] Catalog
+- [x] Product detail
+
+## Deliverables
+
+- [x] Configure the following routes:
+  - `/` navigates to `<ItemListContainer />`
+  - `/category/:id` navigates to `<ItemListContainer />`
+  - `/item/:id` navigates to `<ItemDetailContainer />`
+- [x] Configure the following links:
+  - Clicking on the brand should navigate to `/`
+  - Clicking on an `Item.tsx` should navigate to `/item/:id`
+  - Clicking on a category in the navbar should navigate to `/category/:categoryId`
+
+## Notes
+
+- Do not use `HashRouter`. Instead, use `BrowserRouter`.
+- Use the category ID as the name in the URL parameter instead of numbers (e.g., `vehicles`).
+- Use the item ID as the URL parameter.
+
+## Features
+
+- Fetches product data from an API
+- Displays a list of products
+- Allows filtering products by category
+- Displays detailed information for each product
 
 ## Getting Started
 
