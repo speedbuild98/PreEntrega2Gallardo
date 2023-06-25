@@ -85,10 +85,10 @@ This will start the application in development mode.
 3. Error page: Show an error.
 
 ### Technologies Used
-React
-TypeScript
-React Router
-React Icons
-Tailwind CSS
-Vite
-DaisyUI
+1. React
+2. TypeScript
+3. React Router DOM
+4. React Icons
+5. Tailwind CSS
+6. Vite
+7. DaisyUI
